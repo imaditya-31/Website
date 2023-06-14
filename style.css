@@ -1,0 +1,124 @@
+body {
+	background: url(university.jpg);
+	background-position: center;
+    background-size: cover;
+    position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: navy;
+	padding: 15px 30px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: none;
+}
+
+
+.btn-field{
+	background: white;
+	padding: 15px 30px;
+	font-size: 20px;
+	font-weight: 600;
+	color: navy;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: none;
+    /* flex-basis: 48%;
+    background: rgb(168, 244, 228);
+    color: #fff;
+
+    height: 100px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s; */
+}
+
+button:hover{
+	opacity: 80%;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border: 5px;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	background-color: lightblue;
+	padding: 15px 20px;
+	/* border: red; */
+	border-radius: 10px;
+	font-size: 100px;
+    margin-bottom: 60px;
+    color: white;
+    position: relative;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+

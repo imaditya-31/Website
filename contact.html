@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Placement Cell</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+		<script src="https://kit.fontawesome.com/07929d57ef.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="plclogo.webp"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="event.html">EVENTS</a></li>
+					<li><a href="analysis.html">ANALYSIS</a></li>
+					<li><a href="csr.html"> PARTNERS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+
+
+
+
+        <!-- -----contact us----- -->
+
+        <section class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.409673576676!2d73.78856900395198!3d18.645603525819087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9cc76289cf3%3A0xb82f8568e0019108!2sPratibha%20College%20Of%20Education!5e0!3m2!1sen!2sin!4v1683301696479!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="contact-us">
+
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        
+                            <i class="fa fa-home"></i>
+                        
+                        <span>
+                            <h5> Chinchwad St. Road, Kalbhor Nagar</h5>
+                            <p>MIDC, Chinchwad,Pimpri-Chinchwad,411019</p>
+                        </span>
+                    
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5> +91 1234567890</h5>
+                            <p>Mon to Sat (10am to 3pm)</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5> pcccsplc2121@gmail.com</h5>
+                            <p>Email us your query </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+           
+
+
+        <!-- ----Form---- -->
+
+        <form action="form.php" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <input type="number" name="contact" placeholder="Enter Your Contact No." required>
+            <textarea  rows="8" name="message" placeholder="Feedback and Suggestions" required></textarea>
+            <button type="submit" class="hero-btn red-btn"> Send </button>
+        </form>
+    </div>
+</div>
+</section>
+
+
+
+        <!-- footer -->
+        <section class="footer">
+            <h4>ABOUT US</h4>
+    
+            <P>Providing jobs for ordinary people | Making new job opportunities every day | Our passion is to make a
+                livelihood for people | We have a passion for making jobs | More jobs equal a better world </P>
+    <div class="icons">
+        <a href="https://www.facebook.com/pcccskes/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/pcccs_kes/?igshid=1wdkqv7y2n4an"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/pcccs_kes"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCBvxEL4zEHM4t9yz-02VKcw"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://t.me/joinchat/AAAAAFS80sUoDpuK3wownA"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+            
+            <p>Copyright © Placement Cell, PCCCS, Chinchwad. All rights reserved.</p>
+        </section>
+        <!-- JAVASCRIPT FOR MENU -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0"
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200"
+            }
+        </script>
+</body>
+
+</html>
